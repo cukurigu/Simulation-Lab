@@ -72,9 +72,76 @@ nav a {
   margin-bottom: 1rem;
 }
 
+.auth-section {
+  background-color: #ffffff;
+  max-width: 400px;
+  margin: 3rem auto;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.auth-section h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #003b73;
+}
+
+.auth-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.auth-form label {
+  margin-top: 1rem;
+  margin-bottom: 0.3rem;
+  font-weight: 500;
+}
+
+.auth-form input {
+  padding: 0.6rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.auth-form button {
+  margin-top: 2rem;
+  padding: 0.8rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.auth-form button:hover {
+  background-color: #005fcc;
+}
+
+.auth-toggle {
+  text-align: center;
+  margin-bottom: 0rem;
+}
+
+.auth-toggle button {
+  margin: 0 0.5rem;
+  background: none;
+  border: none;
+  color: #007bff;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: underline;
+}
+.auth-toggle button:hover {
+  color: #3399ff;
+}
+
 .footer {
   text-align: center;
   padding: 1rem;
   background-color: #f0f0f0;
   font-size: 0.9rem;
 }
+

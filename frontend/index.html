@@ -24,10 +24,49 @@
     <button onclick="location.href='#simulations'">Започни сега</button>
   </section>
 
+
+
   <section class="preview-section" id="simulations">
     <h3>Преглед на симулации</h3>
     <p>Очаквайте скоро: махало, наклонена равнина, проектилно движение...</p>
   </section>
+  <section class="auth-section" id="login">
+  <h2>Вход</h2>
+  <form class="auth-form">
+    <label for="login-email">Имейл:</label>
+    <input type="email" id="login-email" required />
+
+    <label for="login-password">Парола:</label>
+    <input type="password" id="login-password" required />
+    <div class="auth-toggle">
+      <button onclick="showLogin()">Вече имаш акаунт?</button>
+
+    </div>
+    
+
+    <button type="submit">Влез</button>
+  </form>
+</section>
+
+<section class="auth-section" id="register">
+  <h2>Регистрация</h2>
+  
+  <form class="auth-form">
+    <label for="register-email">Имейл:</label>
+    <input type="email" id="register-email" required />
+
+    <label for="register-password">Парола:</label>
+    <input type="password" id="register-password" required />
+
+    <label for="register-confirm">Повтори паролата:</label>
+    <input type="password" id="register-confirm" required />
+      <div class="auth-toggle">
+  
+  <button onclick="showRegister()">Нямаш акаунт?</button>
+</div>
+    <button type="submit">Регистрирай се</button>
+  </form>
+</section>
 
   <footer class="footer">
     &copy; 2025 Физична Лаборатория. Всички права запазени.
