@@ -1,0 +1,24 @@
+[33mcommit 9acaac39613c5fa8ce7b0144ba0169bbb4846f90[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: ValentinHadzhistoev <valentinhadzhistoev@gmail.com>
+Date:   Mon Jun 9 17:19:28 2025 +0300
+
+    added page js to dependencies (probably)
+
+[33mcommit 3513d10b74d7f6db18b4a1771b641d560727c9e5[m
+Merge: 3e1dc6d 7b079d4
+Author: ValentinHadzhistoev <valentinhadzhistoev@gmail.com>
+Date:   Mon Jun 9 16:59:54 2025 +0300
+
+    Merge branch 'main' of https://github.com/cukurigu/Simulation-Lab
+
+[33mcommit 3e1dc6d484d87007bcf80e0ff1f8078b02f66351[m
+Author: ValentinHadzhistoev <valentinhadzhistoev@gmail.com>
+Date:   Mon Jun 9 16:47:09 2025 +0300
+
+    changed document title
+
+[33mcommit 7b079d41a45e33b0353dd6e948d53ad2947f6c53[m
+Author: cukurigu <iruskov347@gmail.com>
+Date:   Mon Jun 9 16:29:33 2025 +0300
+
+    Initial commit
