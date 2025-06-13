@@ -2,12 +2,36 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="icon" type="image/x-icon" href="/pics/favicon.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <title>Simulation-Lab</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="app"></div>
+    <header>
+    <h1>Физична Лаборатория</h1>
+    <nav>
+      <a href="#home">Начало</a>
+      <a href="#simulations">Симулации</a>
+      <a href="#login">Вход</a>
+      <a href="#register">Регистрация</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Симулирай физични явления</h2>
+    <p>Интерактивна уеб платформа за визуализиране и разбиране на основни физични процеси като махала, траектории и други.</p>
+    <button onclick="location.href='#simulations'">Започни сега</button>
+  </section>
+
+  <section class="preview-section" id="simulations">
+    <h3>Преглед на симулации</h3>
+    <p>Очаквайте скоро: махало, наклонена равнина, проектилно движение...</p>
+  </section>
+
+  <footer class="footer">
+    &copy; 2025 Физична Лаборатория. Всички права запазени.
+  </footer>
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>
